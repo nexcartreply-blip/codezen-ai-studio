@@ -28,15 +28,8 @@ export const BrowserHeader: React.FC<BrowserHeaderProps> = ({ onRefresh, isLoadi
         </div>
       </div>
 
-      {/* URL Display (Read Only) */}
-      <div className="flex-1 max-w-2xl mx-8 hidden md:block">
-        <div className="bg-slate-900/50 border border-slate-700 rounded-full px-4 py-1.5 flex items-center gap-2 group transition-all hover:bg-slate-900">
-          <i className="fas fa-lock text-green-500 text-[10px]"></i>
-          <span className="text-slate-400 text-xs truncate select-none">
-            aistudio.google.com/apps/drive/...
-          </span>
-        </div>
-      </div>
+      {/* URL Display removed as requested to keep the box completely empty/hidden */}
+      <div className="flex-1"></div>
 
       <div className="flex items-center gap-3">
         <button 
