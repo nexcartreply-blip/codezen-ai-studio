@@ -1,0 +1,14 @@
+
+{
+  "manifest_version": 3,
+  "name": "AI Studio Viewer",
+  "version": "1.0.0",
+  "description": "Open AI Studio in a dedicated distraction-free window.",
+  "action": {
+    "default_title": "Open AI Studio"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "windows"]
+}
