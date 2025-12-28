@@ -1,0 +1,5 @@
+{
+  "name": "SingleSite Viewer",
+  "description": "A dedicated, kiosk-mode browser designed exclusively for viewing a specific AI Studio application without search distractions.",
+  "requestFramePermissions": []
+}
